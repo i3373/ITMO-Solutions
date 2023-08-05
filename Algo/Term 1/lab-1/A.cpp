@@ -1,5 +1,7 @@
 #include <iostream>
+
 using namespace std;
+
 void heapify(int mas[], int n, int i){
     int maximum = i;
     int l = 2 * i + 1, r = 2 * i + 2;
